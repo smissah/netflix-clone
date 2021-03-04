@@ -28,6 +28,7 @@ export const Pane = styled.div`
 
   @media (max-width: 1000px) {
     flex-direction: column;
+    text-align: center;
   }
 `;
 

@@ -15,13 +15,19 @@ export const Inner = styled.div`
 `;
 // $direction -> flips the side the image is on - props
 
-export const Container = styled.div``;
-
 export const Item = styled.div`
   display: flex;
   border-bottom: 0.8rem solid #222;
   colour: white;
   overflow: hidden;
+`;
+
+export const Container = styled.div`
+  @media (max-width: 1000px) {
+    ${Item}: last-of-type 2 {
+      margin-bottom: 5rem;
+    }
+  }
 `;
 export const Pane = styled.div`
   width: 50%;

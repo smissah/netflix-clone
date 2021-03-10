@@ -31,7 +31,7 @@ Accordian.Header = function AccordianHeader({ chilren, ...restProps }) {
   return (
     <Header
       onClick={() => setToggleShow((toggleShow) => !toggleShow)}
-      //above means take the previous take and reserve it. Looks inefficient but deals with the issue of use clicking many times and not giving react time to adjust
+      //above means take the previous take and reserve it. Looks inefficient but deals with the issue of use clicking many times and not giving react time to adjust!!
       {...restProps}
     >
       {chilren}

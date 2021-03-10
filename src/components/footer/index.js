@@ -35,4 +35,3 @@ Footer.Break = function FooterBreak({ children, ...restProps }) {
 Footer.Text = function FooterText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>;
 };
-Text;

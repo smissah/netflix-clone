@@ -53,7 +53,7 @@ export const Header = styled.div`
   background: #303030;
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
-  ${"" /* use cannot highlight */}
+
   align-items: center;
 
   img {

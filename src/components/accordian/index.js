@@ -7,6 +7,7 @@ import {
   Inner,
   Header,
   Body,
+  Break,
 } from "./styles/accordian";
 
 //context provider so headers can have access to state of item

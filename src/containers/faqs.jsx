@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordian } from "../components";
+import { Accordian, OptForm } from "../components";
 import faqsData from "../fixtures/faqs";
 
 export function FaqsContainer() {
@@ -13,6 +13,15 @@ export function FaqsContainer() {
           <Accordian.Body>{item.body}</Accordian.Body>
         </Accordian.Item>
       ))}
+
+      <OptForm>
+        <OptForm.Input placeholder="Email here" />
+        <OptForm.Button>Try now</OptForm.Button>
+        <OptForm.Break />
+        <OptForm.Text>
+          Enter your email to sign up or restart your membership
+        </OptForm.Text>
+      </OptForm>
     </Accordian>
   );
 }
